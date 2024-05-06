@@ -13,7 +13,6 @@ export class UserManagerService {
   constructor(private cookies: CookieService) { }
 
   setUserData(userData:userModel){
-
     let userInfoStr:string = JSON.stringify(userData);
     this.cookies.set("userInfo",userInfoStr);
     localStorage.setItem("login","true")
