@@ -1,6 +1,6 @@
-# Shortlinks
+# Angular AUTH
 
-Open Source Link Shortener (Frontend)
+Open Source Angular template whit Auth and users management (Frontend)
 
 Config the atribute apiUrl in services/rest-service
 
